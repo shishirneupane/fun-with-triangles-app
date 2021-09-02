@@ -20,16 +20,16 @@ function checkButtonHandler() {
       console.log("The length of the hypotenuse is", hypoLength);
       outputText.style.display = "block";
       outputText.style.fontSize = "2rem";
-      outputText.innerText = `✅ The length of the hypotenuse is: ${hypoLength} ✅`;
+      outputText.innerText = `✅ The length of hypotenuse is: ${hypoLength} cm ✅`;
     
     }
     
     else if ((Math.sign(side1) === -1) || (Math.sign(side2) === -1)) {
-      showOutputText("Length of sides can't be negatives. Please enter positive lengths in all fields.");
+      showOutputText("Length of sides can't be negatives. Please enter positive lengths in both fields.");
     }
     
     else if ((Math.sign(side1) === 0) || (Math.sign(side2) === 0)) {
-      showOutputText("Length of sides can't be zeroes. Please enter positive lengths in all fields.");
+      showOutputText("Length of sides can't be zeroes. Please enter positive lengths in both fields.");
     }
   
   }
