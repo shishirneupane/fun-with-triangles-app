@@ -211,7 +211,7 @@ footer {
 }
 
 .section1 div#quiz-section {
-  background-color: #00dab7;
+  background-color: #00b79a;
   margin: 1rem auto;
   width: 50%;
   border-radius: 1rem;
@@ -255,14 +255,27 @@ footer {
 
 
 /* for quiz QnA section */
-.section1 div#quiz-section .quiz-form label {
+.section1 div#quiz-section #quiz-form label {
   color: #000;
-  font-size: 1.5rem;
-  padding: 1rem 1.5rem 0 0;
+  font-size: 1.3rem;
+  font-weight: normal;
+  padding: 1rem 2rem 0 0;
   display: inline-block;
+  cursor: pointer;
 }
 
-.section1 div#quiz-section .quiz-form input {
+.section1 div#quiz-section #quiz-form input {
   display: inline-block;
-  width: 1rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.section1 div#quiz-section #quiz-form li {
+  line-height: 2.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.section2 div#output-text {
+  width: 50%;
 }
