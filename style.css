@@ -112,7 +112,12 @@ footer {
   color: #00dab7;
   font-size: 1.6rem;
   line-height: 2.2rem;
-  margin: 0 auto 0.5rem;
+  margin: 0 auto;
+}
+
+.section1 .div-heading hr {
+  border: 1px solid #00dab7;
+  margin-bottom: 0;
   width: 50%;
 }
 
@@ -134,7 +139,7 @@ footer {
   margin: 0 auto;
   width: 10rem;
   padding: 0.6rem 1.25rem;
-  background-color: #f1f2f3;
+  background-color: #dddddd;
 }
 
 .section1 button#check-button {
@@ -165,4 +170,99 @@ footer {
   margin: 2rem auto;
   padding: 1rem;
   width: 65%;
+}
+
+
+/* ---------------------- */
+/* for hypotenuse and area */
+.section2 .div-heading {
+  width: 42%;
+}
+
+.section2 .div-heading hr {
+  border: 1px solid #00dab7;
+  margin-bottom: 0;
+  width: 85%;
+}
+
+
+/* ---------------------- */
+/* for quiz */
+.section1 button#btn-get-started {
+  font-family: Lato;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #00dab7;
+  color: #231f23;
+  border: 2px solid #00dab7;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  margin: 2rem auto 0;
+}
+
+.section1 button#btn-get-started:hover {
+  background-color: #231f23;
+  color: #00dab7;
+}
+
+.section1 button#btn-get-started {
+  margin: 1rem auto 0;
+}
+
+.section1 div#quiz-section {
+  background-color: #00dab7;
+  margin: 1rem auto;
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: none;
+}
+
+.section1 div#quiz-section li {
+  text-align: left;
+  padding: 0 0 0 1rem;
+}
+
+.section1 button#btn-submit-quiz {
+  font-family: Lato;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #00dab7;
+  color: #231f23;
+  border: 2px solid #00dab7;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  margin: 1.5rem auto 0;
+  display: none;
+}
+
+.section1 button#btn-submit-quiz:hover {
+  background-color: #231f23;
+  color: #00dab7;
+}
+
+.section1 div#quiz-section h1, h3 {
+  margin-block-start: 0;
+  margin-block-end: 0.5em;
+}
+
+.section1 div#quiz-section hr {
+  border: 1px solid #231f23;
+  margin: 2rem 0;
+}
+
+
+/* for quiz QnA section */
+.section1 div#quiz-section .quiz-form label {
+  color: #000;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem 0 0;
+  display: inline-block;
+}
+
+.section1 div#quiz-section .quiz-form input {
+  display: inline-block;
+  width: 1rem;
 }

@@ -21,6 +21,7 @@ function checkButtonHandler() {
       outputText.style.display = "block";
       outputText.style.fontSize = "2rem";
       outputText.innerText = `✅ The length of hypotenuse is: ${hypoLength} cm ✅`;
+      outputText.style.width = "65%";
     
     }
     
@@ -56,6 +57,8 @@ function calculateHypotenuse(side1, side2) {
 function showOutputText(msg) {
   
   outputText.style.display = "block";
+  outputText.style.width = "40%";
+  outputText.style.lineHeight = "2.5rem";
   outputText.style.fontSize = "1.6rem";
   outputText.innerText = msg;
 
