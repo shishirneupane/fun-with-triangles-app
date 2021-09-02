@@ -6,7 +6,7 @@ var outputText = document.querySelector("#output-text");
 
 // array of correct answers
 const correctAnswers = [
-  '90°', 'Right angled triangle', 'Scalene triangle', '1/2 × bh', 'Isosceles triangle', 'Triangle', 'One obtuse angle', '687.5 cm²'
+  '35°', 'Obtuse triangle', 'Isosceles triangle', '1/2 × bh', 'Acute triangle', 'Right angled triangle', 'One obtuse angle', '687.5 cm²'
 ];
 
 getStartedButton.addEventListener("click", getStartedButtonHandler);
